@@ -12,8 +12,11 @@ const config: Config = {
     extend: {
       colors: {
         primaryBlack: '#333',
-        primaryWhite: '#f3f3f3',
+        primaryWhite: '#F7F9FC',
+        secondaryWhite: '#FFFFFF',
+        primaryText: '#2A2A2A',
         blue: '#186FF2',
+        primaryDetails: '#A4C8F8',
       },
       fontFamily: {
         suns: ['var(--font-suns)'],
@@ -23,4 +26,3 @@ const config: Config = {
   plugins: [],
 };
 export default config;
-
