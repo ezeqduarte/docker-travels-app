@@ -1,0 +1,99 @@
+[
+    {
+      "id": 1,
+      "nombre": "Nueva York",
+      "foto": "https://www.civitatis.com/blog/wp-content/uploads/2016/05/Estatua-de-la-Libertad.jpg",
+      "continente": "América del Norte",
+      "descripcion": "Ciudad icónica de Estados Unidos, famosa por la Estatua de la Libertad, el bullicio de Times Square y sus emblemáticos rascacielos como el Empire State Building.",
+      "categorias": ["modernidad", "masividad"]
+    },
+    {
+      "id": 2,
+      "nombre": "París",
+      "foto": "https://img.freepik.com/foto-gratis/torre-eiffel-paris-hermosos-colores-otono_268835-828.jpg",
+      "continente": "Europa",
+      "descripcion": "Capital de Francia, conocida por la Torre Eiffel, el Louvre y su rica historia cultural, con una arquitectura que combina lo antiguo y lo moderno.",
+      "categorias": ["cultura", "patrimonio"]
+    },
+    {
+      "id": 3,
+      "nombre": "Tokio",
+      "foto": "https://lonelyplanetes.cdnstatics2.com/sites/default/files/styles/max_1300x1300/public/fotos/japon_tokio_montefuji_shutterstock_756354574_sean_pavone_shutterstock.jpg?itok=3nrPOQvT",
+      "continente": "Asia",
+      "descripcion": "Metrópoli vibrante que mezcla lo moderno con la tradición japonesa. Destaca por sus rascacielos, templos antiguos y una vida nocturna animada.",
+      "categorias": ["modernidad", "tecnologia"]
+    },
+    {
+      "id": 4,
+      "nombre": "Sídney",
+      "foto": "https://media.iatiseguros.com/wp-content/uploads/2019/04/04011211/que-hacer-sidney-6.jpg",
+      "continente": "Oceanía",
+      "descripcion": "Ciudad australiana famosa por su icónica Ópera de Sídney y el Puente del Puerto, así como por sus impresionantes playas y un vibrante ambiente cosmopolita.",
+      "categorias": ["paisajes", "naturaleza"]
+    },
+    {
+      "id": 5,
+      "nombre": "Río de Janeiro",
+      "foto": "https://www.civitatis.com/blog/wp-content/uploads/2022/10/panoramica-rio-janeiro-brasil.jpg",
+      "continente": "América del Sur",
+      "descripcion": "Conocida por su espectacular Carnaval, la playa de Copacabana y el Cristo Redentor en el Corcovado, que ofrecen vistas impresionantes de la ciudad.",
+      "categorias": ["paisajes", "masividad"]
+    },
+    {
+      "id": 6,
+      "nombre": "Londres",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPmDNH5fiGhypoohH84YSFZ9ed645PCefFcQ&s",
+      "continente": "Europa",
+      "descripcion": "Capital del Reino Unido, rica en historia y cultura, famosa por el Big Ben, el Palacio de Buckingham y una vibrante escena cultural y artística.",
+      "categorias": ["cultura", "patrimonio"]
+    },
+    {
+      "id": 7,
+      "nombre": "El Cairo",
+      "foto": "https://www.barcelo.com/guia-turismo/wp-content/uploads/2022/05/elcairo-que-visitar-pal.jpg",
+      "continente": "África",
+      "descripcion": "Ciudad histórica en Egipto, conocida por sus impresionantes pirámides de Giza, la Gran Esfinge y un vibrante mercado en el centro de la ciudad.",
+      "categorias": ["cultura", "patrimonio"]
+    },
+    {
+      "id": 8,
+      "nombre": "Ciudad del Cabo",
+      "foto": "https://cdn1.intriper.com/wp-content/uploads/2021/04/22150633/200288.jpeg",
+      "continente": "África",
+      "descripcion": "Ciudad sudafricana famosa por su impresionante mesa de montaña, playas hermosas y el vibrante puerto con una mezcla de culturas diversas.",
+      "categorias": ["paisajes", "naturaleza"]
+    },
+    {
+      "id": 9,
+      "nombre": "Bangkok",
+      "foto": "https://www.shutterstock.com/image-photo/big-seated-buddha-statue-dhammakaya-600nw-2461072741.jpg",
+      "continente": "Asia",
+      "descripcion": "La bulliciosa capital tailandesa conocida por sus templos ornamentados, mercados vibrantes y vida nocturna animada en el corazón del sudeste asiático.",
+      "categorias": ["modernidad", "masividad"]
+    },
+    {
+      "id": 10,
+      "nombre": "Toronto",
+      "foto": "https://www.riu.com/blog/wp-content/uploads/2019/01/toronto-riu-canada.jpg",
+      "continente": "América del Norte",
+      "descripcion": "Ciudad canadiense multicultural y moderna, famosa por su arquitectura innovadora, el CN Tower y su diversa oferta cultural y gastronómica.",
+      "categorias": ["modernidad", "tecnologia"]
+    },
+    {
+      "id": 11,
+      "nombre": "Seúl",
+      "foto": "https://res.cloudinary.com/hello-tickets/image/upload/c_limit,f_auto,q_auto,w_1300/v1706619924/wbie0kkoaskxu0bifyfh.jpg",
+      "continente": "Asia",
+      "descripcion": "Capital de Corea del Sur, conocida por su fusión de tecnología avanzada con tradiciones milenarias, así como por sus palacios históricos y vibrantes mercados.",
+      "categorias": ["tecnologia", "modernidad"]
+    },
+    {
+      "id": 12,
+      "nombre": "Buenos Aires",
+      "foto": "https://thishotel.com/wp-content/uploads/2020/11/buenos-aires.jpg",
+      "continente": "América del Sur",
+      "descripcion": "Capital de Argentina, famosa por su rica herencia cultural, arquitectura de estilo europeo y una vibrante escena artística y musical.",
+      "categorias": ["cultura", "masividad"]
+    }
+  ]
+  
