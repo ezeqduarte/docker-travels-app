@@ -1,7 +1,9 @@
+import Carousel from "@/lib/components/generals/carousel/Carousel";
+
 export default function Home() {
   return (
-    <section className="h-full bg-[#c1c1c1ab] bg-[url('https://wallpapers.com/images/hd/travel-4k-clouds-mountains-7wmoz9la6tfkmvtr.jpg')] bg-center bg-cover bg-blend-multiply flex flex-col items-center justify-center text-white">
-      
-    </section>
+    <div className="grow bg-white h-full py-[80px] px-[30px] ">
+        <Carousel title="Populares" slides={[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]} options={{dragFree: true}}></Carousel>
+    </div>
   );
 }

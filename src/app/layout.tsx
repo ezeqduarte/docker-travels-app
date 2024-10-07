@@ -20,7 +20,7 @@ export default function RootLayout({
       >
         <main className="flex flex-col w-full h-screen">
           <Header />
-          <section className="grow rounded bg-primaryWhite">
+          <section className="h-screen rounded bg-primaryWhite">
             {children}
           </section>
           <Navbar />
