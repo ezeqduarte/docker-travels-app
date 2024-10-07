@@ -1,41 +1,53 @@
 'use client'
 
-import { EmblaOptionsType } from 'embla-carousel'
-import useEmblaCarousel from 'embla-carousel-react'
 import './carousel.css'
+import useEmblaCarousel from 'embla-carousel-react'
+import { EmblaOptionsType } from 'embla-carousel'
+import { CardCarousel } from '@/lib/components'
+import { useFetchCities } from '@/lib/hooks'
 
-type PropType = {
+interface City {
+    id: number;
+    nombre: string;
+    foto: string;
+    continente: string;
+    descripcion: string;
+    categorias: string[];
+}
+
+interface CarouselProps {
     title: string,
     slides: number[]
     options?: EmblaOptionsType
 }
 
-const CarouselItem = ({ index }: any) => {
+const CarouselItem = ({ city }: any) => {
     return (
-        <div className="embla__slide" key={index}>
+        <div className="embla__slide" key={city.id}>
             <div className='embla__slide__content'>
-                <div style={{ 'width': '100%', 'background': 'red' }} className='embla__slide__content1'></div>
+                <CardCarousel item={city}></CardCarousel>
             </div>
         </div>
     )
 }
 
-const Carousel: React.FC<PropType> = (props) => {
-    const { title, slides, options } = props
-    const [emblaRef, emblaApi] = useEmblaCarousel(options)
+export const Carousel: React.FC<CarouselProps> = ({ title, options }) => {
+    const [emblaRef] = useEmblaCarousel(options);
+    const { data: cities, loading, error } = useFetchCities('/cities.json');
+
+    if (loading) return <p>Cargando...</p>;
+    if (error) return <p>Error: {error}</p>;
 
     return (
         <section className="embla">
-            <p>{title}</p>
+            <h2>{title}</h2>
             <div className="embla__viewport" ref={emblaRef}>
                 <div className="embla__container">
-                    {slides.map((index) => (
-                        <CarouselItem index={index}></CarouselItem>
+                    {cities.map((city: City) => (
+                        <CarouselItem key={city.id} city={city} />
                     ))}
                 </div>
             </div>
         </section>
-    )
-}
-
-export default Carousel
+    );
+};

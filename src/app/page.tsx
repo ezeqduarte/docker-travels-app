@@ -1,4 +1,4 @@
-import Carousel from "@/lib/components/generals/carousel/Carousel";
+import { Carousel } from "@/lib/components";
 
 export default function Home() {
   return (
